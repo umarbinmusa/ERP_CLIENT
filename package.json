@@ -62,7 +62,8 @@
             "vite": "6.3.5"
       },
       "scripts": {
-            "dev": "vite",
-            "build": "vite build"
-      }
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist"
+}
+
 }
